@@ -1,0 +1,161 @@
+.App {
+  text-align: left;
+}
+
+.ant-layout {
+  min-height: 100vh;
+}
+
+.ant-menu-item {
+  border-radius: 8px !important;
+  margin: 4px 0 !important;
+}
+
+.ant-menu-submenu-title {
+  border-radius: 8px !important;
+  margin: 4px 0 !important;
+}
+
+.ant-card {
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.ant-table {
+  border-radius: 8px;
+}
+
+.ant-btn {
+  border-radius: 6px;
+}
+
+.ant-input, .ant-input-password {
+  border-radius: 6px;
+}
+
+.ant-select-selector {
+  border-radius: 6px !important;
+}
+
+.ant-upload {
+  border-radius: 6px;
+}
+
+.project-card {
+  margin-bottom: 16px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.status-badge.未开始 {
+  background: #f0f0f0;
+  color: #666;
+}
+
+.status-badge.进行中 {
+  background: #e6f7ff;
+  color: #1890ff;
+}
+
+.status-badge.已完成 {
+  background: #f6ffed;
+  color: #52c41a;
+}
+
+.status-badge.需要修订 {
+  background: #fff2e8;
+  color: #fa8c16;
+}
+
+.progress-circle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+}
+
+.progress-circle.low {
+  background: #ff4d4f;
+}
+
+.progress-circle.medium {
+  background: #faad14;
+}
+
+.progress-circle.high {
+  background: #52c41a;
+}
+
+.file-upload-area {
+  border: 2px dashed #d9d9d9;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  transition: border-color 0.3s;
+}
+
+.file-upload-area:hover {
+  border-color: #1890ff;
+}
+
+.section-content {
+  background: #fafafa;
+  padding: 16px;
+  border-radius: 8px;
+  margin-top: 12px;
+  border-left: 4px solid #1890ff;
+}
+
+.section-content pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-family: inherit;
+  margin: 0;
+}
+
+.generation-result {
+  margin-top: 24px;
+  padding: 20px;
+  background: #f6ffed;
+  border: 1px solid #b7eb8f;
+  border-radius: 8px;
+}
+
+.template-preview {
+  background: #fafafa;
+  padding: 16px;
+  border-radius: 8px;
+  max-height: 400px;
+  overflow-y: auto;
+  margin-top: 16px;
+}
+
+@media (max-width: 768px) {
+  .ant-layout-sider {
+    position: fixed !important;
+    height: 100vh;
+    z-index: 999;
+  }
+  
+  .ant-layout-content {
+    margin-left: 0 !important;
+  }
+}
