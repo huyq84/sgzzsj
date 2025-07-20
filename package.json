@@ -41,7 +41,14 @@
     "archiver": "^6.0.1",
     "excel4node": "^1.8.2",
     "handlebars": "^4.7.8",
-    "moment": "^2.29.4"
+    "moment": "^2.29.4",
+    "openai": "^4.20.1",
+    "axios": "^1.6.0",
+    "@pinecone-database/pinecone": "^1.1.2",
+    "chromadb": "^1.7.3",
+    "weaviate-client": "^1.5.0",
+    "tiktoken": "^1.0.10",
+    "langchain": "^0.0.208"
   },
   "devDependencies": {
     "nodemon": "^3.0.1",
