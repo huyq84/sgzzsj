@@ -1,33 +1,55 @@
 
-# Hi there, I'm Huy 👋
+# 建筑工程施工组织设计系统
 
-![Profile Views](https://komarev.com/ghpvc/?username=huyq84&color=blue)
-![GitHub Followers](https://img.shields.io/github/followers/huyq84?style=social)
+## 🏗️ 项目简介
+这是一个基于AI技术的建筑工程施工组织设计系统，能够根据用户提供的专业、投标文件、图纸等资料自动生成施工组织设计文档，支持投标阶段和施工阶段两种模式。
 
-## 🚀 About Me
-- 🌱 I’m currently learning **Cloud Computing and AI**
-- 💬 Ask me about **JavaScript, Python, and Machine Learning**
-- 📫 How to reach me: [Email](mailto:huyq84@example.com) | [LinkedIn](https://linkedin.com/in/huyq84)
+## ✨ 核心功能
+- **多专业支持**: 支持建筑、结构、机电、装饰等不同专业
+- **智能文档分析**: 自动解析投标文件、图纸等技术资料
+- **双模式设计**: 支持投标阶段和施工阶段的施工组织设计
+- **AI辅助生成**: 基于机器学习技术智能生成设计方案
+- **文档管理**: 完整的文档上传、生成、下载和管理功能
+- **用户权限管理**: 支持不同角色用户的权限控制
 
-## 📊 My GitHub Stats
-![Huy's GitHub Stats](https://github-readme-stats.vercel.app/api?username=huyq84&show_icons=true&theme=radical)
+## 🛠️ 技术栈
+- **前端**: React + TypeScript + Ant Design
+- **后端**: Python + FastAPI + SQLAlchemy
+- **数据库**: PostgreSQL
+- **AI/ML**: OpenAI API + 自定义模型
+- **文件存储**: MinIO/阿里云OSS
+- **部署**: Docker + Nginx
 
-## 🛠️ Languages and Tools
-![HTML5](https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&style=flat)
-![CSS3](https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white&style=flat)
-![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat)
-![Python](https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat)
+## 📁 项目结构
+```
+construction-design-system/
+├── frontend/                 # React前端应用
+├── backend/                  # FastAPI后端服务
+├── ai-service/              # AI分析服务
+├── database/                # 数据库脚本
+├── docker/                  # Docker配置文件
+└── docs/                    # 项目文档
+```
 
-## 📂 Highlighted Projects
-- [Project 1: AI Chatbot](https://github.com/huyq84/ai-chatbot)
-- [Project 2: Portfolio Website](https://github.com/huyq84/portfolio-website)
+## 🚀 快速开始
+1. 克隆项目
+2. 安装依赖
+3. 配置环境变量
+4. 启动服务
 
-## 📝 Latest Blog Posts
-<!-- BLOG-POST-LIST:START -->
-- [How to Build a Portfolio Website](https://huyq84.github.io/blog/portfolio-website)
-- [Introduction to Machine Learning](https://huyq84.github.io/blog/machine-learning-intro)
-<!-- BLOG-POST-LIST:END -->
+详细安装和使用说明请参考各模块的README文件。
 
-## ⚡ Fun Facts
-- 🐶 I have a dog named Max.
-- 🌎 I love traveling and have visited 15 countries!
+## 📝 开发计划
+- [x] 项目架构设计
+- [ ] 前端界面开发
+- [ ] 后端API开发
+- [ ] AI分析服务集成
+- [ ] 数据库设计
+- [ ] 部署配置
+- [ ] 测试和优化
+
+## 🤝 贡献指南
+欢迎提交Issue和Pull Request来帮助改进这个项目。
+
+## 📄 许可证
+MIT License
